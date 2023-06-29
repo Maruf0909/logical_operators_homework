@@ -8,4 +8,9 @@ def main(a,b,c):
     Returns:
         bool: answer
     """
-    return
+    x1 = a<b and b<c
+    x2 = c<b and b<a
+    
+
+    return x1 or x2
+print(main(3, 4, 5))
