@@ -6,4 +6,7 @@ def main(a):
     Returns:
         bool: answer
     """
-    return
+    
+    
+    return a>-100 and a<-9 or a>9 and a<100
+print(main(23))
